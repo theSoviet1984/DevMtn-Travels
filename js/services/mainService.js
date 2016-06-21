@@ -1,5 +1,15 @@
-angular.module('devmtnTravel').service('mainSrv', function(){
-
+ angular.module('devmtnTravel').service('mainSrv', function(){
+// function getTravelInfo () {
+//   return $http({
+//     meth
+//   }).then(function  (result) {
+//     this.travelInfo = result
+//   })
+// }
+//
+// this.getTravel=function(){
+//   return travelInfo
+// }
     this.travelInfo = [{
         city: 'New York',
         country: 'United States',
